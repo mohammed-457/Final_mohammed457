@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aws.Final_mohammed457">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.aws.Final_mohammed457.background"
+            android:label="@string/title_activity_background"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.example.aws.Final_mohammed457.LastREC" />
+        <activity android:name="com.example.aws.Final_mohammed457.serchPHP" />
+        <activity android:name="com.example.aws.Final_mohammed457.updatePHP" />
+        <activity android:name="com.example.aws.Final_mohammed457.UpdateEditPHP" />
+        <activity android:name="com.example.aws.Final_mohammed457.deletPHP" />
+        <activity android:name="com.example.aws.Final_mohammed457.insertPHP" />
+        <activity android:name="com.example.aws.Final_mohammed457.showAllLocalPage" />
+        <activity android:name="com.example.aws.Final_mohammed457.LastREClocalPage" />
+        <activity android:name="com.example.aws.Final_mohammed457.deleteLocalPage" />
+        <activity android:name="com.example.aws.Final_mohammed457.serchLocalPage" />
+        <activity android:name="com.example.aws.Final_mohammed457.updatLocalPage" />
+        <activity android:name="com.example.aws.Final_mohammed457.insertLocalPage" />
+        <activity android:name="com.example.aws.Final_mohammed457.localPage" />
+        <activity android:name="com.example.aws.Final_mohammed457.editText" />
+        <activity android:name="com.example.aws.Final_mohammed457.PHPpage" />
+        <activity android:name="com.example.aws.Final_mohammed457.showAllPHP" />
+        <activity android:name="com.example.aws.Final_mohammed457.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
